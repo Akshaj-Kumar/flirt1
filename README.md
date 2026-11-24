@@ -1,5 +1,9 @@
 # Just For You ❤️ — Premium Romantic Surprise Interactive Website
 
+> 🌐 **Live Website:** [https://akshaj-kumar.github.io/flirt1/](https://akshaj-kumar.github.io/flirt1/)  
+> 📦 **GitHub Repository:** [https://github.com/Akshaj-Kumar/flirt1](https://github.com/Akshaj-Kumar/flirt1)  
+> ⚡ **Vercel Claim Link:** [https://vercel.com/claim-deployment?code=ccecfbf3-7105-4f47-af74-4fe0c31f45ab](https://vercel.com/claim-deployment?code=ccecfbf3-7105-4f47-af74-4fe0c31f45ab)
+
 A modern, cinematic, emotionally captivating interactive romantic surprise web experience built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
 Designed with a 2026 dark romantic aesthetic, glowing neon pink aura, 3D animated envelope unsealing, interactive compliment cards, floating canvas particles, cursor sparkles, and lush ambient synthesizer music.
