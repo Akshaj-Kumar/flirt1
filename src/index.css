@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  html, body {
+    background-color: #08050A;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08050A;
+}
+::-webkit-scrollbar-thumb {
+  background: #270819;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4FA3;
+}
+
+/* Glow utility classes */
+.text-glow-pink {
+  text-shadow: 0 0 12px rgba(255, 79, 163, 0.7), 0 0 25px rgba(255, 79, 163, 0.4);
+}
+
+.text-glow-rose {
+  text-shadow: 0 0 12px rgba(255, 49, 93, 0.7), 0 0 30px rgba(255, 49, 93, 0.4);
+}
+
+.box-glow-pink {
+  box-shadow: 0 0 30px -5px rgba(255, 79, 163, 0.5), inset 0 0 15px rgba(255, 79, 163, 0.2);
+}
+
+.box-glow-card {
+  box-shadow: 0 15px 35px -10px rgba(39, 8, 25, 0.8), 0 0 25px rgba(255, 79, 163, 0.25);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(39, 8, 25, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 79, 163, 0.25);
+}
+
+.glass-card {
+  background: rgba(249, 199, 223, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 182, 217, 0.2);
+}
+
+/* Envelope 3D styling */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
